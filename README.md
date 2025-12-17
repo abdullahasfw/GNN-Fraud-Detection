@@ -8,21 +8,10 @@ Mendeteksi kecurangan dalam grafik transaksi menggunakan berbagai model dan data
 - Muhammad Irfan Qadafi (2408107010054)
 - Rahiqul Munadhil (2408107010049)
 
-
-Models:
-- [x] GAT
-- [x] GCN
-- [x] GIN
-- [ ] GraphSAGE
-- [ ] MPNN
-- [ ] GTN
-
 Datasets:
-- [x] [Elliptic](https://www.kaggle.com/datasets/ellipticco/elliptic-data-set)
-- [ ] [YelpFraud](https://paperswithcode.com/dataset/yelpchi)
-- [ ] [AmazonFraud](https://paperswithcode.com/dataset/amazon-fraud)
+[Elliptic](https://www.kaggle.com/datasets/ellipticco/elliptic-data-set)
 
-## Installation
+## Instalasi
 First install the requirements.
 ```bash
 pip install -r requirements.txt
