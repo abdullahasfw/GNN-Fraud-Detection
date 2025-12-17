@@ -1,0 +1,11 @@
+torch
+torch-geometric
+cls
+numpy
+pandas
+scikit-learn
+omegaconf
+tensorboard
+matplotlib
+networkx
+streamlit
