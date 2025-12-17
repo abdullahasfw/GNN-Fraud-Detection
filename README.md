@@ -1,5 +1,13 @@
-# Fraud Detection with Graph Neural Networks
-Detect fraud in transactions graphs using various ready-to-use models and datasets.
+# Fraud Detection Menggunakan Graph Neural Networks
+Mendeteksi kecurangan dalam grafik transaksi menggunakan berbagai model dan dataset siap pakai.
+
+## Kelompok 10
+
+- Abdullah Asy-Syifawi (2408107010042)
+- Ahmad Daniel Chalid (2408107010061)
+- Muhammad Irfan Qadafi (2408107010054)
+- Rahiqul Munadhil (2408107010049)
+
 
 Models:
 - [x] GAT
@@ -20,30 +28,9 @@ First install the requirements.
 pip install -r requirements.txt
 ```
 
-## Download Dataset
-Download and extract the required datasets. This project currently only supports Elliptic. A dataset must have 3 files:
-- Edge list
-- Classes
-- Features
-
-Then provide the required `torch.utils.data.Dataset` class for your own dataset like [here](fraud_detection/datasets.py)
-
-
-## Training
-To train a model you need a config file. By default, these files are located at `configs/`. For example to train a GAT model
-on Elliptic run:
-```bash
-python train --config configs/elliptic_gat.yaml
-```
-The models are trained for 100 epochs and results are verbosed every 10 epochs and logged to Tensorboard.
-
-## Visualization
-To visualize model predictions on the graph on each step, run:
+## Output
+run command
 ```bash
 python visualize.py --config configs/elliptic_gat.yaml --step 30 --weights_file weigths/elliptic_gat.pt
 ```
 ![A sample predictions visualization](visualizations/elliptic_gat/30.png)
-
-## About the project
-This is my final project for the course **Complex Networks** during my Masters' in **Shahid Beheshti University** instructed by **Dr. Sadegh Ali Akbari** (Spring 2023). 
-I've also written a Persian blog post on this project [here](https://virgool.io/@arxyzan/fraud-detection-gnn-iywqcbifqukr)
